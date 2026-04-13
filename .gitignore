@@ -1,0 +1,15 @@
+data/coco2017/*
+
+# allow annotations folder
+!data/coco2017/annotations/
+!data/coco2017/train2017/
+!data/coco2017/val2017/
+
+# ignore everything inside it
+data/coco2017/annotations/*
+data/coco2017/train2017/*
+data/coco2017/val2017/*
+
+# allow specific files
+!data/coco2017/annotations/clean.py
+!data/coco2017/annotations/data_analysis.ipynb
